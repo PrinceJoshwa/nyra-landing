@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'NYRA SUNTERA',
-  description: 'Created with v0',
+  description: 'Nyra Suntera',
 }
 
 export default function RootLayout({
