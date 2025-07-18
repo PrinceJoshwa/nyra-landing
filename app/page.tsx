@@ -444,7 +444,7 @@ export default function LandingPage() {
                 title: "Indoor Swimming Pool",
                 description:
                   "Luxurious indoor swimming pool with ample space for recreation and relaxation, surrounded by natural light.",
-                image: "/Building4.webp",
+                image: "/building4.webp",
                 gradient: "from-green-500 to-emerald-600",
                 bgGradient: "from-green-50 to-emerald-50",
               },
