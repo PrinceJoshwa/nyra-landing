@@ -1,3 +1,4 @@
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 import Link from "next/link"
 
 export default function Footer() {
@@ -23,14 +24,18 @@ export default function Footer() {
               homeowner who values both luxury and responsibility.
             </p>
             <div className="flex space-x-3 sm:space-x-4">
-              {[1, 2, 3, 4].map((social) => (
-                <div
-                  key={social}
-                  className="w-10 h-10 sm:w-12 sm:h-12 bg-slate-800 hover:bg-orange-600 rounded-xl sm:rounded-2xl flex items-center justify-center transition-colors cursor-pointer group"
-                >
-                  <div className="w-4 h-4 sm:w-5 sm:h-5 bg-slate-400 group-hover:bg-white rounded transition-colors"></div>
-                </div>
-              ))}
+              <a href="#" className="hover:text-orange-400 transition-colors">
+                <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+              <a href="#" className="hover:text-orange-400 transition-colors">
+                <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+              <a href="#" className="hover:text-orange-400 transition-colors">
+                <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+              <a href="#" className="hover:text-orange-400 transition-colors">
+                <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
             </div>
           </div>
 
