@@ -150,8 +150,8 @@ export default function Header() {
           {/* Logo Section */}
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-                <img src="/nyra-logo.png" alt="Nyra" className="w-6 h-6 sm:w-7 sm:h-7 brightness-0 invert" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <img src="/logo.jpg" alt="Nyra" className="w-6 h-6 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl" />
               </div>
               <div className="absolute -top-0.5 -right-0.5 w-3 h-3 sm:w-4 sm:h-4 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full animate-pulse"></div>
             </div>

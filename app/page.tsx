@@ -225,7 +225,7 @@ export default function LandingPage() {
                           size="lg"
                           variant="outline"
                           onClick={() => setShowVideo(true)}
-                          className="border-2 border-orange-300 text-orange-700 hover:bg-orange-50 text-sm sm:text-base lg:text-lg px-6 sm:px-8 lg:px-10 py-4 sm:py-5 lg:py-6 bg-white/80 backdrop-blur-xl rounded-xl sm:rounded-2xl font-semibold group"
+                          className="border-2 border-orange-300 text-orange-700 hover:bg-orange-50 text-sm sm:text-base lg:text-lg px-6 sm:px-8 lg:px-10 py-4 sm:py-5 lg:py-6 bg-white/80 backdrop-blur-xl rounded-xl sm:rounded-2xl font-semibold group w-full sm:w-auto"
                         >
                           <Play className="h-4 w-4 sm:h-5 sm:w-5 mr-2 sm:mr-3 group-hover:scale-110 transition-transform" />
                           Watch Virtual Tour
@@ -376,9 +376,9 @@ export default function LandingPage() {
               <div className="bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                 <img src="/Nyra.jpg" alt="Floor Plan" className="w-full h-full object-contain" />
               </div>
-              <div className="absolute top-4 sm:top-6 right-4 sm:right-13 bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-4 shadow-xl">
+              <div className="absolute top-4 sm:top-6 right-2 sm:right-13 bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-4 shadow-xl">
                 <div className="text-center">
-                  <div className="text-2xl sm:text-2xl font-bold text-orange-600 mb-1 sm:mb-2">₹8750/sqft.*</div>
+                  <div className="text-sm sm:text-2xl font-bold text-orange-600 mb-1 sm:mb-2">₹8750/sqft.*</div>
                   <div className="text-xs sm:text-sm text-slate-600 font-medium">Starting Price</div>
                 </div>
               </div>

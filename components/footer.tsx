@@ -11,8 +11,8 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="sm:col-span-2 md:col-span-1 space-y-6 sm:space-y-8">
             <div className="flex items-center space-x-3 sm:space-x-4">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-orange-600 to-red-700 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl">
-                <img src="/nyra-logo.png" alt="Nyra" className="w-8 h-8 sm:w-10 sm:h-10 brightness-0 invert" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl">
+                <img src="/logo.jpg" alt="Nyra" className="w-6 h-6 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl" />
               </div>
               <div>
                 <div className="font-bold text-xl sm:text-2xl tracking-tight">NYRA</div>
